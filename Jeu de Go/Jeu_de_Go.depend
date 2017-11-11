@@ -1,0 +1,3242 @@
+# depslib dependency file v1.0
+1426029172 source:e:\cheikh\jeu_de_go_v3\sources\calculescore.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_platform.h
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\begin_code.h
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\close_code.h
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_keysym.h
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499402 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499402 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 e:\cheikh\jeu_de_go_v3\include\sdl\sdl_types.h
+	"SDL_stdinc.h"
+
+1425499404 e:\cheikh\jeu_de_go_v3\sources\fonctions_techniques.h
+
+1425742484 e:\cheikh\jeu_de_go_v3\sources\jeu.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDl/SDL_mixer.h>
+
+1425499404 e:\cheikh\jeu_de_go_v3\sources\macros.h
+
+1425673049 source:e:\cheikh\jeu_de_go_v3\sources\capture.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426026319 e:\cheikh\jeu_de_go_v3\sources\syst_jeu.h
+
+1425499404 source:e:\cheikh\jeu_de_go_v3\sources\conversion_tableau.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:e:\cheikh\jeu_de_go_v3\sources\correspondance_indice.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:e:\cheikh\jeu_de_go_v3\sources\fonctions_techniques.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_ttf.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"macros.h"
+
+1425499404 source:e:\cheikh\jeu_de_go_v3\sources\getgroupe.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425742684 source:e:\cheikh\jeu_de_go_v3\sources\main.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"jeu.h"
+	"macros.h"
+
+1425499404 e:\cheikh\jeu_de_go_v3\sources\title_screen.h
+
+1425499404 source:e:\cheikh\jeu_de_go_v3\sources\menu.c
+
+1425807193 source:e:\cheikh\jeu_de_go_v3\sources\place_pion.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+	"syst_jeu.h"
+
+1426029438 source:e:\cheikh\jeu_de_go_v3\sources\placement_possible.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426029672 source:e:\cheikh\jeu_de_go_v3\sources\recursion_liberty.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:e:\cheikh\jeu_de_go_v3\sources\refresh_plateau.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+
+1425499404 source:e:\cheikh\jeu_de_go_v3\sources\test_existe.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:e:\cheikh\jeu_de_go_v3\sources\title_screen.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"macros.h"
+
+1425768452 source:e:\cheikh\jeu_de_go_v3\sources\verifierko.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:e:\cheikh\jeu_de_go_v3\sources\voisin.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426112541 source:e:\cheikh\jeu_de_go_v3\sources\calculerlibpourdeplacementpossible.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"jeu.h"
+	"macros.h"
+
+1426196087 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\sources\calculerlibpourdeplacementpossible.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"jeu.h"
+	"macros.h"
+	"syst_jeu.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_platform.h
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\begin_code.h
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\close_code.h
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_keysym.h
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499402 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499402 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_types.h
+	"SDL_stdinc.h"
+
+1425499404 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\sources\fonctions_techniques.h
+
+1426169891 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\sources\title_screen.h
+
+1425742484 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\sources\jeu.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDl/SDL_mixer.h>
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499404 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\sources\macros.h
+
+1426029172 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\sources\calculescore.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+
+1425673049 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\sources\capture.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426195334 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\sources\syst_jeu.h
+	"macros.h"
+
+1425499404 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\sources\conversion_tableau.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\sources\correspondance_indice.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\sources\fonctions_techniques.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_ttf.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"macros.h"
+
+1425499404 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\sources\getgroupe.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\sources\libertes.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+
+1426029438 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\sources\placement_possible.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426029672 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\sources\recursion_liberty.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\sources\refresh_plateau.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+
+1425499404 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\sources\test_existe.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\sources\title_screen.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"macros.h"
+
+1425768452 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\sources\verifierko.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\sources\voisin.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426194485 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\sources\load_and_save.c
+	<stdio.h>
+	<stdlib.h>
+	"syst_jeu.h"
+	"macros.h"
+
+1426195988 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\sources\main.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"jeu.h"
+	"macros.h"
+
+1426190054 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\sources\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"macros.h"
+
+1426195927 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go_v3\sources\place_pion.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+	"syst_jeu.h"
+
+1426433729 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\calculerlibpourdeplacementpossible.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"jeu.h"
+	"macros.h"
+	"syst_jeu.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_platform.h
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\begin_code.h
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\close_code.h
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_keysym.h
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499402 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499402 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_types.h
+	"SDL_stdinc.h"
+
+1425499404 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\fonctions_techniques.h
+
+1426343331 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\title_screen.h
+
+1426464239 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\jeu.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+
+1425499400 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1426457851 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\macros.h
+
+1426457791 c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\syst_jeu.h
+	"macros.h"
+
+1426464239 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\calculescore.c
+	<stdio.h>
+	<stdlib.h>
+	"syst_jeu.h"
+	"macros.h"
+
+1426235119 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\capture.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\conversion_tableau.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\correspondance_indice.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426359131 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\fonctions_techniques.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"macros.h"
+
+1425499404 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\getgroupe.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\libertes.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+
+1426358712 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\load_and_save.c
+	<stdio.h>
+	<stdlib.h>
+	"syst_jeu.h"
+	"macros.h"
+
+1426465505 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\main.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"jeu.h"
+	"syst_jeu.h"
+	"macros.h"
+
+1426358796 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"macros.h"
+
+1426465153 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\place_pion.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+	"syst_jeu.h"
+
+1426448633 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\placement_possible.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426029672 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\recursion_liberty.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426343428 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\refresh_plateau.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+
+1425499404 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\test_existe.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426348951 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\title_screen.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"macros.h"
+
+1425768452 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\verifierko.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\voisin.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426346308 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\choix_adversaire.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"macros.h"
+
+1426426333 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\game.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+	"syst_jeu.h"
+
+1426450398 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\pause.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+	"syst_jeu.h"
+
+1426429743 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\nbcaseplein.c
+	<stdio.h>
+	<stdlib.h>
+	"syst_jeu.h"
+	"macros.h"
+
+1426444002 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\ia.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426457791 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\territoire.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426465747 source:c:\users\toshiba\documents\programmation en c\projet prog\jeu_de_go\sources\affiche_score.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+
+1426433729 source:z:\jeu_de_gowaaaw\jeu_de_go\sources\calculerlibpourdeplacementpossible.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"jeu.h"
+	"macros.h"
+	"syst_jeu.h"
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_platform.h
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\begin_code.h
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\close_code.h
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_keysym.h
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499402 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499402 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 z:\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_types.h
+	"SDL_stdinc.h"
+
+1425499404 z:\jeu_de_gowaaaw\jeu_de_go\sources\fonctions_techniques.h
+
+1426343331 z:\jeu_de_gowaaaw\jeu_de_go\sources\title_screen.h
+
+1426464239 z:\jeu_de_gowaaaw\jeu_de_go\sources\jeu.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+
+1426457851 z:\jeu_de_gowaaaw\jeu_de_go\sources\macros.h
+
+1426457791 z:\jeu_de_gowaaaw\jeu_de_go\sources\syst_jeu.h
+	"macros.h"
+
+1426464239 source:z:\jeu_de_gowaaaw\jeu_de_go\sources\calculescore.c
+	<stdio.h>
+	<stdlib.h>
+	"syst_jeu.h"
+	"macros.h"
+
+1426235119 source:z:\jeu_de_gowaaaw\jeu_de_go\sources\capture.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426346308 source:z:\jeu_de_gowaaaw\jeu_de_go\sources\choix_adversaire.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"macros.h"
+
+1425499404 source:z:\jeu_de_gowaaaw\jeu_de_go\sources\conversion_tableau.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:z:\jeu_de_gowaaaw\jeu_de_go\sources\correspondance_indice.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426359131 source:z:\jeu_de_gowaaaw\jeu_de_go\sources\fonctions_techniques.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"macros.h"
+
+1425499404 source:z:\jeu_de_gowaaaw\jeu_de_go\sources\getgroupe.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426528237 source:z:\jeu_de_gowaaaw\jeu_de_go\sources\ia.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:z:\jeu_de_gowaaaw\jeu_de_go\sources\libertes.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+
+1426358712 source:z:\jeu_de_gowaaaw\jeu_de_go\sources\load_and_save.c
+	<stdio.h>
+	<stdlib.h>
+	"syst_jeu.h"
+	"macros.h"
+
+1426465505 source:z:\jeu_de_gowaaaw\jeu_de_go\sources\main.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"jeu.h"
+	"syst_jeu.h"
+	"macros.h"
+
+1426358796 source:z:\jeu_de_gowaaaw\jeu_de_go\sources\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"macros.h"
+
+1426429743 source:z:\jeu_de_gowaaaw\jeu_de_go\sources\nbcaseplein.c
+	<stdio.h>
+	<stdlib.h>
+	"syst_jeu.h"
+	"macros.h"
+
+1426450398 source:z:\jeu_de_gowaaaw\jeu_de_go\sources\pause.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+	"syst_jeu.h"
+
+1426526743 source:z:\jeu_de_gowaaaw\jeu_de_go\sources\place_pion.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+	"syst_jeu.h"
+
+1426448633 source:z:\jeu_de_gowaaaw\jeu_de_go\sources\placement_possible.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426029672 source:z:\jeu_de_gowaaaw\jeu_de_go\sources\recursion_liberty.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426343428 source:z:\jeu_de_gowaaaw\jeu_de_go\sources\refresh_plateau.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+
+1425499404 source:z:\jeu_de_gowaaaw\jeu_de_go\sources\test_existe.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426348951 source:z:\jeu_de_gowaaaw\jeu_de_go\sources\title_screen.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"macros.h"
+
+1425768452 source:z:\jeu_de_gowaaaw\jeu_de_go\sources\verifierko.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:z:\jeu_de_gowaaaw\jeu_de_go\sources\voisin.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426465747 source:z:\jeu_de_gowaaaw\jeu_de_go\sources\affiche_score.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+
+1426488424 source:c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\affiche_score.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_platform.h
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\begin_code.h
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\close_code.h
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_keysym.h
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499402 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499402 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425499400 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\include\sdl\sdl_types.h
+	"SDL_stdinc.h"
+
+1425499404 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\fonctions_techniques.h
+
+1426641698 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\jeu.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+
+1426457851 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\macros.h
+
+1426628827 source:c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\calculerlibpourdeplacementpossible.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"jeu.h"
+	"macros.h"
+	"syst_jeu.h"
+
+1426343331 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\title_screen.h
+
+1426629549 c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\syst_jeu.h
+	"macros.h"
+
+1426500254 source:c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\calculescore.c
+	<stdio.h>
+	<stdlib.h>
+	"syst_jeu.h"
+	"macros.h"
+
+1426595146 source:c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\capture.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426346308 source:c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\choix_adversaire.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"macros.h"
+
+1425499404 source:c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\conversion_tableau.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\correspondance_indice.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426540966 source:c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\fonctions_techniques.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"macros.h"
+
+1425499404 source:c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\getgroupe.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426711650 source:c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\ia.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\libertes.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+
+1426635815 source:c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\load_and_save.c
+	<stdio.h>
+	<stdlib.h>
+	"syst_jeu.h"
+	"macros.h"
+
+1426708832 source:c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\main.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"jeu.h"
+	"syst_jeu.h"
+	"macros.h"
+
+1426606875 source:c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"macros.h"
+
+1426429743 source:c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\nbcaseplein.c
+	<stdio.h>
+	<stdlib.h>
+	"syst_jeu.h"
+	"macros.h"
+
+1426541214 source:c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\pause.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+	"syst_jeu.h"
+
+1426690954 source:c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\place_pion.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+	"syst_jeu.h"
+
+1426768670 source:c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\placement_possible.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426029672 source:c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\recursion_liberty.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426641698 source:c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\refresh_plateau.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+
+1425499404 source:c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\test_existe.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426603128 source:c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\title_screen.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"macros.h"
+
+1426595146 source:c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\verifierko.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:c:\users\polo\documents\_projets efrei\jeu_de_gowaaaw\jeu_de_go\sources\voisin.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426488426 source:f:\pc mouhaha\documents\documents\jeu_de_go\sources\affiche_score.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_platform.h
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\begin_code.h
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\close_code.h
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_keysym.h
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495802 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495802 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 f:\pc mouhaha\documents\documents\jeu_de_go\include\sdl\sdl_types.h
+	"SDL_stdinc.h"
+
+1425499404 f:\pc mouhaha\documents\documents\jeu_de_go\sources\fonctions_techniques.h
+
+1426641700 f:\pc mouhaha\documents\documents\jeu_de_go\sources\jeu.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+
+1426457852 f:\pc mouhaha\documents\documents\jeu_de_go\sources\macros.h
+
+1507748150 source:f:\pc mouhaha\documents\documents\jeu_de_go\sources\calculerlibpourdeplacementpossible.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"jeu.h"
+	"macros.h"
+	"syst_jeu.h"
+
+1426343332 f:\pc mouhaha\documents\documents\jeu_de_go\sources\title_screen.h
+
+1426629550 f:\pc mouhaha\documents\documents\jeu_de_go\sources\syst_jeu.h
+	"macros.h"
+
+1426500256 source:f:\pc mouhaha\documents\documents\jeu_de_go\sources\calculescore.c
+	<stdio.h>
+	<stdlib.h>
+	"syst_jeu.h"
+	"macros.h"
+
+1426595148 source:f:\pc mouhaha\documents\documents\jeu_de_go\sources\capture.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426346310 source:f:\pc mouhaha\documents\documents\jeu_de_go\sources\choix_adversaire.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"macros.h"
+
+1425499404 source:f:\pc mouhaha\documents\documents\jeu_de_go\sources\conversion_tableau.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:f:\pc mouhaha\documents\documents\jeu_de_go\sources\correspondance_indice.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426540968 source:f:\pc mouhaha\documents\documents\jeu_de_go\sources\fonctions_techniques.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"macros.h"
+
+1425499404 source:f:\pc mouhaha\documents\documents\jeu_de_go\sources\getgroupe.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1507748194 source:f:\pc mouhaha\documents\documents\jeu_de_go\sources\ia.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:f:\pc mouhaha\documents\documents\jeu_de_go\sources\libertes.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+
+1507748214 source:f:\pc mouhaha\documents\documents\jeu_de_go\sources\load_and_save.c
+	<stdio.h>
+	<stdlib.h>
+	"syst_jeu.h"
+	"macros.h"
+
+1507748128 source:f:\pc mouhaha\documents\documents\jeu_de_go\sources\main.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"jeu.h"
+	"syst_jeu.h"
+	"macros.h"
+
+1507748342 source:f:\pc mouhaha\documents\documents\jeu_de_go\sources\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"macros.h"
+
+1426429744 source:f:\pc mouhaha\documents\documents\jeu_de_go\sources\nbcaseplein.c
+	<stdio.h>
+	<stdlib.h>
+	"syst_jeu.h"
+	"macros.h"
+
+1426541216 source:f:\pc mouhaha\documents\documents\jeu_de_go\sources\pause.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+	"syst_jeu.h"
+
+1507748320 source:f:\pc mouhaha\documents\documents\jeu_de_go\sources\place_pion.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+	"syst_jeu.h"
+
+1507748282 source:f:\pc mouhaha\documents\documents\jeu_de_go\sources\placement_possible.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1507748258 source:f:\pc mouhaha\documents\documents\jeu_de_go\sources\recursion_liberty.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426641700 source:f:\pc mouhaha\documents\documents\jeu_de_go\sources\refresh_plateau.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+
+1425499404 source:f:\pc mouhaha\documents\documents\jeu_de_go\sources\test_existe.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426603130 source:f:\pc mouhaha\documents\documents\jeu_de_go\sources\title_screen.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"macros.h"
+
+1426595148 source:f:\pc mouhaha\documents\documents\jeu_de_go\sources\verifierko.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:f:\pc mouhaha\documents\documents\jeu_de_go\sources\voisin.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1507748248 source:f:\pc mouhaha\documents\documents\jeu_de_go\sources\territoire.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426488426 source:c:\users\polo\documents\jeu_de_go\sources\affiche_score.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_platform.h
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\begin_code.h
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\close_code.h
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_keysym.h
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495802 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495802 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425495800 c:\users\polo\documents\jeu_de_go\include\sdl\sdl_types.h
+	"SDL_stdinc.h"
+
+1425499404 c:\users\polo\documents\jeu_de_go\sources\fonctions_techniques.h
+
+1426641700 c:\users\polo\documents\jeu_de_go\sources\jeu.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+
+1426457852 c:\users\polo\documents\jeu_de_go\sources\macros.h
+
+1507748150 source:c:\users\polo\documents\jeu_de_go\sources\calculerlibpourdeplacementpossible.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"jeu.h"
+	"macros.h"
+	"syst_jeu.h"
+
+1426343332 c:\users\polo\documents\jeu_de_go\sources\title_screen.h
+
+1426629550 c:\users\polo\documents\jeu_de_go\sources\syst_jeu.h
+	"macros.h"
+
+1426500256 source:c:\users\polo\documents\jeu_de_go\sources\calculescore.c
+	<stdio.h>
+	<stdlib.h>
+	"syst_jeu.h"
+	"macros.h"
+
+1426595148 source:c:\users\polo\documents\jeu_de_go\sources\capture.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426346310 source:c:\users\polo\documents\jeu_de_go\sources\choix_adversaire.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"macros.h"
+
+1425499404 source:c:\users\polo\documents\jeu_de_go\sources\conversion_tableau.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:c:\users\polo\documents\jeu_de_go\sources\correspondance_indice.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426540968 source:c:\users\polo\documents\jeu_de_go\sources\fonctions_techniques.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"macros.h"
+
+1425499404 source:c:\users\polo\documents\jeu_de_go\sources\getgroupe.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1507748194 source:c:\users\polo\documents\jeu_de_go\sources\ia.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:c:\users\polo\documents\jeu_de_go\sources\libertes.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+
+1507748214 source:c:\users\polo\documents\jeu_de_go\sources\load_and_save.c
+	<stdio.h>
+	<stdlib.h>
+	"syst_jeu.h"
+	"macros.h"
+
+1507748128 source:c:\users\polo\documents\jeu_de_go\sources\main.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"jeu.h"
+	"syst_jeu.h"
+	"macros.h"
+
+1507748342 source:c:\users\polo\documents\jeu_de_go\sources\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"macros.h"
+
+1426429744 source:c:\users\polo\documents\jeu_de_go\sources\nbcaseplein.c
+	<stdio.h>
+	<stdlib.h>
+	"syst_jeu.h"
+	"macros.h"
+
+1426541216 source:c:\users\polo\documents\jeu_de_go\sources\pause.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+	"syst_jeu.h"
+
+1507748320 source:c:\users\polo\documents\jeu_de_go\sources\place_pion.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+	"syst_jeu.h"
+
+1507748282 source:c:\users\polo\documents\jeu_de_go\sources\placement_possible.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1507748258 source:c:\users\polo\documents\jeu_de_go\sources\recursion_liberty.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426641700 source:c:\users\polo\documents\jeu_de_go\sources\refresh_plateau.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+
+1507748248 source:c:\users\polo\documents\jeu_de_go\sources\territoire.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:c:\users\polo\documents\jeu_de_go\sources\test_existe.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426603130 source:c:\users\polo\documents\jeu_de_go\sources\title_screen.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"macros.h"
+
+1426595148 source:c:\users\polo\documents\jeu_de_go\sources\verifierko.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425499404 source:c:\users\polo\documents\jeu_de_go\sources\voisin.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426484826 source:c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\affiche_score.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_platform.h
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\begin_code.h
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\close_code.h
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_keysym.h
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425492202 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425492202 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1425492200 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\include\sdl\sdl_types.h
+	"SDL_stdinc.h"
+
+1425495804 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\fonctions_techniques.h
+
+1426638100 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\jeu.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+
+1426454252 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\macros.h
+
+1507744550 source:c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\calculerlibpourdeplacementpossible.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"jeu.h"
+	"macros.h"
+	"syst_jeu.h"
+
+1426339732 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\title_screen.h
+
+1426625950 c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\syst_jeu.h
+	"macros.h"
+
+1426496656 source:c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\calculescore.c
+	<stdio.h>
+	<stdlib.h>
+	"syst_jeu.h"
+	"macros.h"
+
+1426591548 source:c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\capture.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426342710 source:c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\choix_adversaire.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"macros.h"
+
+1425495804 source:c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\conversion_tableau.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425495804 source:c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\correspondance_indice.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426537368 source:c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\fonctions_techniques.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"macros.h"
+
+1425495804 source:c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\getgroupe.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1507744594 source:c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\ia.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425495804 source:c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\libertes.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+
+1507744614 source:c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\load_and_save.c
+	<stdio.h>
+	<stdlib.h>
+	"syst_jeu.h"
+	"macros.h"
+
+1507744528 source:c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\main.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"jeu.h"
+	"syst_jeu.h"
+	"macros.h"
+
+1507744742 source:c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"macros.h"
+
+1426426144 source:c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\nbcaseplein.c
+	<stdio.h>
+	<stdlib.h>
+	"syst_jeu.h"
+	"macros.h"
+
+1426537616 source:c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\pause.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+	"syst_jeu.h"
+
+1507744720 source:c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\place_pion.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+	"syst_jeu.h"
+
+1507744682 source:c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\placement_possible.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1507744658 source:c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\recursion_liberty.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426638100 source:c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\refresh_plateau.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDl/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"jeu.h"
+	"macros.h"
+
+1507744648 source:c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\territoire.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425495804 source:c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\test_existe.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1426599530 source:c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\title_screen.c
+	<stdio.h>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"fonctions_techniques.h"
+	"title_screen.h"
+	"macros.h"
+
+1426591548 source:c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\verifierko.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+
+1425495804 source:c:\users\polo\dropbox\project\c\jeu de go\jeu_de_go\sources\voisin.c
+	<stdio.h>
+	<stdlib.h>
+	"macros.h"
+	"syst_jeu.h"
+

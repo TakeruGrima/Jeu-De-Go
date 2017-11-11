@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Jeu_de_GO" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Jeu_de_GO" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="lib/libSDL.a" />
+					<Add library="lib/libSDL.dll.a" />
+					<Add library="lib/libSDLmain.a" />
+					<Add library="lib/SDL_image.lib" />
+					<Add library="lib/SDL_mixer.lib" />
+					<Add directory="../../../../../Program Files (x86)/CodeBlocks/MinGW/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Jeu_de_GO" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="lib/libSDL.a" />
+					<Add library="lib/libSDL.dll.a" />
+					<Add library="lib/libSDLmain.a" />
+					<Add library="lib/SDL_image.lib" />
+					<Add library="lib/SDL_mixer.lib" />
+					<Add directory="../../../../../Program Files (x86)/CodeBlocks/MinGW/lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL" />
+			<Add library="lib/SDL_image.lib" />
+			<Add library="lib/SDL_TTF.lib" />
+			<Add directory="lib" />
+		</Linker>
+		<Unit filename="sources/IA.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/Load_and_save.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/VerifierKO.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/affiche_score.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/calculerLibPourDeplacementPossible.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/calculescore.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/capture.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/choix_adversaire.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/conversion_tableau.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/correspondance_indice.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/fonctions_techniques.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/fonctions_techniques.h" />
+		<Unit filename="sources/getGroupe.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/jeu.h" />
+		<Unit filename="sources/libertes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/macros.h" />
+		<Unit filename="sources/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/nbcaseplein.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/pause.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/place_pion.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/placement_possible.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/recursion_liberty.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/refresh_plateau.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/syst_jeu.h" />
+		<Unit filename="sources/territoire.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/test_existe.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/title_screen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/title_screen.h" />
+		<Unit filename="sources/voisin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
