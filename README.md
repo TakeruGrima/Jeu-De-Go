@@ -11,3 +11,5 @@ To clearly understand the project I give the file
 "rapport de projet TimothéeLE CORRE" that I send to my teacher in 2014 to
 explain the project. I filmed the execution you can see the video to see how
 it's work.
+
+PS : Turn the volume off if you watch the video
